@@ -1,3 +1,4 @@
+package lab10;
 //Name:witawat
 //ID:6887054
 //Section:2
