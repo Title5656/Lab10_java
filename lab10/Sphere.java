@@ -15,11 +15,11 @@ public class Sphere extends Object3D {
     }
 
     public double getVolume() {
-        return 3 / 4 * PI * (radius * radius * radius);
+        return (4.0 / 3.0) * PI * (radius * radius * radius);
     }
 
     public double getSurface() {
-        return 4 * PI * (radius * radius);
+        return 4.0 * PI * (radius * radius);
     }
 
 }
