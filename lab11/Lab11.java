@@ -1,10 +1,10 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+// import java.io.BufferedReader;
+// import java.io.File;
+// import java.io.FileNotFoundException;
+// import java.io.FileReader;
+// import java.io.IOException;
 
 
 public class Lab11 {
@@ -68,7 +68,7 @@ public class Lab11 {
 		//--------------Task2--------------//
 		
 		try {
-			int balance = 3000;
+			// int balance = 3000;
 			Scanner reader2 = new Scanner(System.in);
 			System.out.print("Enter amount: ");
 			int bal = reader2.nextInt();
